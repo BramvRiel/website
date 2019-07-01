@@ -34,14 +34,18 @@
     <None Include="app.ts" />
     <None Include="routes\index.ts" />
     <None Include="routes\blog.ts" />
-    <Content Include="articles\article1.md">
+    <Content Include="articles\default.md">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\javascripts\markdown-editer.js" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
     <Content Include="views\blog\article.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\blog\editor.pug">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\index.pug" />

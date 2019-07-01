@@ -1,4 +1,12 @@
 ﻿extends ./../layout
 
+append head
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js')
+  script(src='/javascripts/markdown-editer.js')
+
 block content 
-  
+  .container.full-height
+    .row.full-height
+      .col.full-height
+        textarea.full-height#source #{markdown}
+      .col#output !{html}
