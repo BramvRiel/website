@@ -1,4 +1,4 @@
-﻿html, body, .full-height {
+﻿html, body, .full-height, textarea.full-height {
     height: 100%;
 }
 
@@ -13,4 +13,21 @@ a {
 
 textarea#source {
     width: 100%;
+}
+
+#output {
+    overflow: auto;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
 }
