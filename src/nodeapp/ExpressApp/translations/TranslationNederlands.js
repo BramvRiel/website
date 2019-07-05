@@ -9,7 +9,7 @@ class TranslationNederlands {
         this.index_whatDoYouDoOgd2 = 
         // OGD
         ', die zend mij uit op basis van detachering bij bedrijven waar ik mijn vaardigheden verder ontwikkel.';
-        this.index_whyThisBlog = 'De kennis die ik heb opgedaan deel ik graag met anderen, vandaar deze blog.';
+        this.index_whyThisBlog = 'De kennis die ik heb opgedaan deel ik graag met anderen, vandaar dat ik begonnen ben met deze blog.';
     }
 }
 exports.TranslationNederlands = TranslationNederlands;
