@@ -1,4 +1,8 @@
 ﻿export interface TranslationMap {
-    welkom_hoi: string;
-    welkom_hoe_gaat_het: string;
+    index_intro: string;
+    index_howAreYou: string;
+    index_whatDoYouDo: string;
+    index_whatDoYouDoOgd: string;
+    index_whatDoYouDoOgd2: string;
+    index_whyThisBlog: string;
 }

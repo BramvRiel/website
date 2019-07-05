@@ -1,1 +1,1 @@
-{"version":3,"file":"TranslationEnglish.js","sourceRoot":"","sources":["TranslationEnglish.ts"],"names":[],"mappings":";;AAEA,MAAa,iBAAiB;IAA9B;QACI,eAAU,GAAW,KAAK,CAAC;QAC3B,wBAAmB,GAAW,oBAAoB,CAAC;IACvD,CAAC;CAAA;AAHD,8CAGC;AAAA,CAAC"}
+{"version":3,"file":"TranslationEnglish.js","sourceRoot":"","sources":["TranslationEnglish.ts"],"names":[],"mappings":";;AAEA,MAAa,iBAAiB;IAA9B;QACI,gBAAW,GAAW,6CAA6C,CAAC;QACpE,oBAAe,GAAW,oCAAoC,CAAC;QAC/D,sBAAiB,GAAW,8DAA8D,CAAC;IAI/F,CAAC;CAAA;AAPD,8CAOC;AAAA,CAAC"}

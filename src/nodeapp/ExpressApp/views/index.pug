@@ -1,6 +1,8 @@
 ﻿extends layout
 
 block content
-  .container.content
-    h1= welkom_hoi
-    p= welkom_hoe_gaat_het
+    .header #{index_intro} #[h1 Bram van Riel]
+    p #{index_howAreYou} 
+    p #{index_whatDoYouDo} 
+    p #{index_whatDoYouDoOgd} #[a(href="https://info.ogd.nl/",target="_blank") OGD] #{index_whatDoYouDoOgd2}
+    p #{index_whyThisBlog}
