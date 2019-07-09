@@ -1,0 +1,39 @@
+﻿html, body, .full-height, textarea.full-height {
+    height: 100%;
+}
+
+body {
+    padding: 50px;
+    font: 12pt "Vollkorn", serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+textarea#source {
+    width: 100%;
+}
+
+#output {
+    /*overflow: auto;*/
+}
+
+#header * {
+    font-size: 12pt;
+    line-height: 1;
+    display: inline-block;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    /*position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;*/
+}
+
+.content {
+    /*position: fixed;*/
+}

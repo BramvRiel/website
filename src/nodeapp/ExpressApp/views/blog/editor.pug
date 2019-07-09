@@ -1,0 +1,14 @@
+﻿extends ./../layout
+
+append head
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js")
+  script(src="/javascripts/markdown-editer.js")
+
+block content 
+  .container.full-height
+    form.full-height
+      .row.full-height
+        .col.full-height
+          textarea.form-control.full-height#source #{markdown}
+        .col.full-height#output !{html}
