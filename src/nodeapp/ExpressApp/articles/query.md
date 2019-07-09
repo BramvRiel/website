@@ -104,11 +104,11 @@ Of
 ## Versiebeheer
 Het is praktisch om de informatiebehoeften te verzamelen onder een map of folder genoemd naar de betreffende context, en versies te benoemen in de naam van de folder of het bestand. Excel voldoet prima, voor zowel de informatiebehoefte, de context, en de criteria kan een werkblad worden toegevoegd.
 ```
-+-- medewerkers
-|   +-- voornaam-achternaam-janssen.xlsx
++-- medewerkers_v1
+|   +-- voornaam-achternaam-janssen_v1.xlsx
 +-- medewerkers_v2
-|   +-- voornaam-achternaam-janssen.xlsx
-|   +-- email-achternaam-janssen.xlsx
-+-- medewerkers-subdomein-bedrijf
-    +-- email-achternaam-janssen.xlsx
+|   +-- voornaam-achternaam-janssen_v2.xlsx
+|   +-- email-achternaam-janssen_v1.xlsx
++-- medewerkers-subdomein-bedrijf_v1
+    +-- email-achternaam-janssen_v1.xlsx
 ```

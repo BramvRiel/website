@@ -37,6 +37,9 @@
     <Content Include="articles\default.md">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="articles\event.md">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="articles\query.md">
       <SubType>Code</SubType>
     </Content>
@@ -53,12 +56,16 @@
     <Content Include="views\blog\editor.pug">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\blog\index.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="articles\" />
+    <Folder Include="menu\" />
     <Folder Include="translations\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
@@ -70,11 +77,14 @@
     <Folder Include="views\blog\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="menu\Menu.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="translations\TranslationMap.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="translations\TranslationEnglish.ts" />
-    <TypeScriptCompile Include="translations\TranslationNederlands.ts">
+    <TypeScriptCompile Include="translations\TranslationDutch.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="translations\Translations.ts">

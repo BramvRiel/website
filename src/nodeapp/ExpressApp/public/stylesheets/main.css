@@ -4,7 +4,7 @@
 
 body {
     padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 12pt "Vollkorn", serif;
 }
 
 a {
@@ -16,18 +16,24 @@ textarea#source {
 }
 
 #output {
-    overflow: auto;
+    /*overflow: auto;*/
+}
+
+#header * {
+    font-size: 12pt;
+    line-height: 1;
+    display: inline-block;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-    position: fixed;
+    /*position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 100%;*/
 }
 
 .content {
-    position: fixed;
+    /*position: fixed;*/
 }
