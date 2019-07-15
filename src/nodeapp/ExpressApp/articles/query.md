@@ -56,11 +56,12 @@ FROM (
 WHERE Achternaam = 'Janssen'; -- criteria
 ```
 De nieuwe context is minimaal, toegespitst op de informatiebehoefte, maar de complexiteit van de context is hoger. Een complexe context is moeilijker te onderhouden, maar maakt het specificeren van de informatiebehoefte eenvoudiger.
+
 ## Specificatie
+
 De specificatie bestaat dus uit deze drie componenten: informatiebehoefte, context, en criteria.  
-
 *Gegeven de informatiebehoefte; de voornaam van alle medewerkers met de achternaam 'Janssen'*  
-
+![Voorbeeld van informatiebehoefte specificering](https://cadott.app/images/article_query_informatiebehoefte.png)
 **Informatiebehoefte**
 |Voornaam|Achternaam|
 |-|-|
@@ -74,7 +75,7 @@ De specificatie bestaat dus uit deze drie componenten: informatiebehoefte, conte
 |n.v.t.|'Janssen'|
 
 *Gegeven de informatiebehoefte; het e-mailadres van alle medewerkers met de achternaam 'Janssen', met als subdomein 'bedrijf.nl'*
-
+![Voorbeeld van informatiebehoefte specificering](https://cadott.app/images/article_query_criteria.png)
 **Informatiebehoefte**
 |Voornaam|Achternaam|E-mailadres|
 |-|-|-|

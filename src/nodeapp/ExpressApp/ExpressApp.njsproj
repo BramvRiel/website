@@ -43,6 +43,8 @@
     <Content Include="articles\query.md">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\images\article_query_criteria.png" />
+    <Content Include="public\images\article_query_informatiebehoefte.png" />
     <Content Include="public\javascripts\markdown-editer.js" />
     <Content Include="public\videos\1015854739-preview.mp4" />
     <Content Include="public\videos\31814164-preview.mp4" />
